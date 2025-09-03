@@ -20,9 +20,15 @@ class Carro {
     public func getMarca() -> String {
         return self.marca
     }
-    public func setMarca(marca: String) {
+    private func setMarca(marca: String) {
         self.marca = marca 
     }
+    public func alterarMarca(senha: Int, novaMarca: String) {
+        if senha == 123 {
+            self.setMarca(marca: novaMarca)
+        }
+    }
+
     public func getModelo() -> String {
         return self.modelo
     }
@@ -33,7 +39,7 @@ class Carro {
 
 let carro = Carro(marca: "Ford", modelo: "Focus")
 
-print(carro.marca, carro.modelo)
+print(carro.getMarca(), carro.getModelo())
 print()
-carro.setMarca(marca: "Volksvagen")
-print(carro.marca, carro.modelo)
+carro.alterarMarca(senha: 123, novaMarca: "Volksvagen")
+print(carro.getMarca(), carro.getModelo())
