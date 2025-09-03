@@ -1,3 +1,4 @@
+/*
 import Foundation
 
 class Carro {
@@ -43,3 +44,36 @@ print(carro.getMarca(), carro.getModelo())
 print()
 carro.alterarMarca(senha: 123, novaMarca: "Volksvagen")
 print(carro.getMarca(), carro.getModelo())
+
+------------------------------------------------------------------
+
+Exercício 1 */
+
+import Foundation
+
+class Cofre {
+    private var saldo: Double
+
+    init(depositoInicial: Double) {
+        self.saldo = saldo
+    }
+
+    public func depositar(quantia: Double) {
+        if (quantia > 0)
+            saldo += quantia
+        else
+            print("Erro")
+    }
+
+    public func sacar(quantia: Double) {
+        if (quantia > 0) && (quantia >= saldo)
+            saldo -= quantia
+        else
+            print("Saldo insuficiente")
+    }
+
+    public func getSaldo() -> Double {
+        return self.saldo
+    }
+}
+
