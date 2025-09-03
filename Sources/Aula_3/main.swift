@@ -17,17 +17,23 @@ class Carro {
         print("O carro está freando")
     }
 
+    public func getMarca() -> String {
+        return self.marca
+    }
     public func setMarca(marca: String) {
         self.marca = marca 
+    }
+    public func getModelo() -> String {
+        return self.modelo
     }
     public func setModelo(modelo: String) {
         self.modelo = modelo
     }
 }
 
-let carro = Carro(marca: "Forda", modelo: "Focus")
+let carro = Carro(marca: "Ford", modelo: "Focus")
 
 print(carro.marca, carro.modelo)
 print()
-carro.marca = "Volksvagen"
+carro.setMarca(marca: "Volksvagen")
 print(carro.marca, carro.modelo)
