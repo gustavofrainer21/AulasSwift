@@ -86,7 +86,3 @@ print(meuCofre.getSaldo())
 
 meuCofre.sacar(quantia: 250)
 print(meuCofre.getSaldo())
-
--------------------------------------------------
-Exercício 2 */
-
