@@ -1,3 +1,4 @@
+/*
 class CarroEsportivo: Carro {
     private var velocidadeMaxima: Double
 
@@ -19,3 +20,4 @@ class CarroEsportivo: Carro {
         print("O \(getModelo()) está acelerando a \(velocidade) km/h")
     }
 }
+*/

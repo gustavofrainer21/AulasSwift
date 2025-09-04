@@ -1,3 +1,4 @@
+/*
 class Cachorro: Animal {
     override func emitirSom() {
         print("AU AU!")
@@ -7,3 +8,4 @@ class Cachorro: Animal {
         print("O \(nome) está rosnando")
     }
 }
+*/

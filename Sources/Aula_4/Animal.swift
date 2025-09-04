@@ -1,3 +1,4 @@
+/*
 import Foundation
 
 class Animal {
@@ -15,3 +16,4 @@ class Animal {
 
   public func emitirSom() {}
 }
+*/
