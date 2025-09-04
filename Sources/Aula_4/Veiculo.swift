@@ -12,6 +12,6 @@ class Veiculo {
     }
 
     func apresentar() {
-        
+        print(self.marca, self.ano)
     }
 }

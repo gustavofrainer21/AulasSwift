@@ -12,3 +12,5 @@ import Foundation
 //carro1.acelerar()
 //carro1.acelerar(velocidade: 320)
 
+let carro2 = Carro2(marca: "Ford", ano: 2020, numeroDePortas: 4)
+carro2.apresentar()
