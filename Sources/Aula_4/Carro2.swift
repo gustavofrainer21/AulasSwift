@@ -1,3 +1,5 @@
+import Foundation
+
 class Carro2: Veiculo {
     var numeroDePortas: Int
 
