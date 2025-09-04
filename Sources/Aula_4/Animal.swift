@@ -13,7 +13,5 @@ class Animal {
     print("O \(self.nome) está dormindo")
   }
 
-  public func emitirSom() {
-    
-  }
+  public func emitirSom() {}
 }
