@@ -26,4 +26,8 @@ class Carro {
             self.setMarca(marca: novaMarca)
         }
     }
+
+    public func getModelo() -> String {
+        return self.modelo
+    }
 }
