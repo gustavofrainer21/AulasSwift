@@ -14,4 +14,8 @@ class Veiculo {
     func apresentar() {
         print(self.marca, self.ano)
     }
+
+    func detalhes() -> String {
+        return "Este é um veículo"
+    }
 }

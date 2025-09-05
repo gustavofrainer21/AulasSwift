@@ -11,4 +11,8 @@ class Carro2: Veiculo {
     override func apresentar() {
         print(marca, ano, self.numeroDePortas)
     }
+
+    override func detalhes() -> String {
+        return "Este é um carro de \(self.numeroDePortas) portas"
+    }
 }

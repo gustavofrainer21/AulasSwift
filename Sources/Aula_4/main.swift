@@ -12,5 +12,10 @@ import Foundation
 //carro1.acelerar()
 //carro1.acelerar(velocidade: 320)
 
-let carro2 = Carro2(marca: "Ford", ano: 2020, numeroDePortas: 4)
-carro2.apresentar()
+//let carro2 = Carro2(marca: "Ford", ano: 2020, numeroDePortas: 4)
+//carro2.apresentar()
+
+var array = [Carro2(marca: "Ferrari", ano: 2016, numeroDePortas: 2), Moto(marca: "Harley Davidson", ano: 2013, cilindrada: 250)]
+for i in 0...1 {
+    print(array[i].detalhes())
+}
